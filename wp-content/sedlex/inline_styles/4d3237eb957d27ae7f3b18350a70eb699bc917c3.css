@@ -1,0 +1,52 @@
+
+/*====================================================*/
+/* FILE /sedlex/inline_styles/60e71920606bba793460dd32216897d26ef52bd3.css*/
+/*====================================================*/
+.related_post_featured_image_img {
+   width:160px;
+   height:160px;
+}
+.related_posts {
+   background-color:#EEEEEE ; 
+   margin:10px;
+   padding : 10px;
+}
+.related_posts_title {
+   font-size:14px ;
+   text-align:center;
+   font-weight:bold;
+}
+.related_post {
+   font-size:11px ;
+   font-style:normal ; 
+}
+.related_post_fi {
+   font-size:11px ;
+   font-style:normal ; 
+   text-align:center ; 
+}
+.related_post_fi_div {
+   position:absolute;
+   bottom:0px ; 
+   background-color:#FFFFFF;
+   opacity:0.7;
+   width:100%;
+}
+.related_post_featured_image {
+   border: 1px solid #999999;
+   float:left ; 
+   width:160px;
+   height:160px;
+   margin:5px;
+   padding:0px;
+   overflow:hidden;
+   position:relative;
+}
+.related_post_featured_image_img {
+   margin:0px;
+   padding:0px;
+}
+.related_post_featured_image_img:hover {
+    opacity: 0.8;
+}
+

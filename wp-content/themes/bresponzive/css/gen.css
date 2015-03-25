@@ -1,0 +1,345 @@
+/* empezar */
+
+/* fijos */
+
+.fijos {
+	width: 100%;
+	background: #fdfdfd;
+	overflow: hidden;
+	display: inline-block;
+	float: left;
+	height: 250px;
+}
+.fijos .datos {
+	max-width: 1230px;
+	margin: 0 auto;
+	border-left: 1px #d1d1d1 solid;
+	border-right: 1px #d1d1d1 solid;
+}
+.fijos .datos a {
+	width: 226px;
+	height: 335px;
+	text-align: center;
+	float: left;
+	padding: 20px 40px 0;
+	border-left: 0px #d1d1d1 solid;
+	border-right: 0px #d1d1d1 solid;
+	color: #000;
+}
+.fijos.cinco .datos a {
+	width: /*165px;*/10%;
+}
+.fijos.cinco .datos a:first-child {
+	margin: 0 0 0 0px;
+	width: 163px;
+	border-left: 0px;
+}
+.fijos.cinco .datos a:last-child {
+	margin: 0 0 0 0px;
+	width: 165px;
+	border-right: 0px;
+}
+.fijos .datos a:first-child {
+	margin: 0 0 0 0px;
+	width: 227px;
+}
+.fijos .datos a h2 {
+	text-transform: uppercase;
+	font-size: 1.6em;
+}
+.fijos.cinco .datos a h2 {
+	font-size: 1.3em;
+	line-height: 1.16em;
+}
+.fijos .datos a p {
+	font-size: .9em;
+	line-height: 1.16em;
+}
+.fijos .datos a:first-child {
+	border-right: 0px #d1d1d1 solid;
+}
+.fijos .datos a:last-child {
+	border-left: 0px #d1d1d1 solid;
+}
+.fijos .datos a.par {
+	border-right: 0px #d1d1d1 solid;
+}
+.fijos .datos a .bubble {
+	width: 88px;
+	height: 88px;
+	border-radius: 88px;
+	display: inline-block;
+	background:#ea242c;
+	margin: 10px auto;
+	color: #ea242c;
+	-webkit-transition:All 0.3s ease-out;
+	-moz-transition:All 0.3s ease-out;
+	-o-transition:All 0.3s ease-out;
+}
+.fijos .datos a .bubble:hover {
+	background-color: #362c35;
+	color: #362c35;
+	-webkit-transition:All 0.3s ease-out;
+	-moz-transition:All 0.3s ease-out;
+	-o-transition:All 0.3s ease-out;
+}
+.fijos .datos a .uno {
+	background: #ea242c url('../images/home_actividades.png') center center no-repeat;
+}
+.fijos .datos a .dos {
+	background: #ea242c url('../images/home_sobre_gen.png') center center no-repeat;
+}
+.fijos .datos a .tres {
+	background: #ea242c url('../images/home_manual.png') center center no-repeat;
+}
+.fijos .datos a .cuatro {
+	background: #ea242c url('../images/home_argentina.png') center center no-repeat;
+}
+.fijos .datos a .cinco {
+	background: #ea242c url('../images/home_instituto.png') center center no-repeat;
+}
+.fijos .datos a .seis {
+	background: #ea242c url('../images/home_legales.png') center center no-repeat;
+}
+.fijos .datos a .siete {
+	background: #ea242c url('../images/home_encuentros.png') center center no-repeat;
+}
+.fijos .datos a .ocho {
+	background: #ea242c url('../images/home_transparencia.png') center center no-repeat;
+}
+
+/* Actualidad */
+.actualidad {
+	background: #eae9e9;
+	width: 100%;
+	overflow: hidden;
+	display: inline-block;
+	float: left;
+}
+.actualidad .contenedor {
+	width: 1232px;
+	margin: 0 auto;
+	flota: left;
+}
+.actualidad h2 {
+	background: #544d53 url('../images/h2_actualidad.jpg') top right no-repeat !important;
+	padding: 15px 50px 0 20px !important;
+	margin: 0 !important;
+	display: block;
+	width: 75%;
+	clear: both;
+	height: 42px;
+	text-transform: uppercase;
+	font-size: 2.4em;
+	color: #fff;
+	font-weight: 400;
+	cursor: default;
+}
+.actualidad .boxes {
+	width: 1232px;
+	margin: 0 auto;
+	flota: left;
+	overflow: hidden;
+}
+.actualidad .boxes .actividad {
+	width: 300px;
+	height: 300px;
+	float: left;
+	background: #ea242c;
+	margin: 20px 10px 35px 0;
+	overflow: hidden;
+}
+.actualidad .boxes .actividad:last-child {
+	margin: 20px 0 35px 0;
+}
+.actualidad .boxes .actividad .publicado {
+	padding: 10px 0 0 20px;
+	text-transform: uppercase;
+	font-size: .7em;
+	line-height: 1.36em;
+	margin: 0;
+}
+.actualidad .boxes .actividad h3 {
+	line-height: 1.26em;
+	padding: 5px 10px 0px 20px;
+	margin: 0px;
+	font-size: .9em;
+	font-weight: normal;
+	font-family: "Open Sans";
+	height: 45px;
+	overflow: hidden;
+}
+.actualidad .boxes .actividad h3 a {
+	color: #ffffff;
+}
+.actualidad .boxes .actividad .preview {
+	width: 100%;
+	height: 95px;
+	overflow: hidden;
+	float: left;
+	margin: 10px 0 10px 0;
+	-webkit-transition:All 0.3s ease-out;
+	-moz-transition:All 0.3s ease-out;
+	-o-transition:All 0.3s ease-out;
+}
+.actualidad .boxes .actividad .preview img {
+	margin: 0 0 0 0;
+}
+.actualidad .boxes .actividad p {
+	padding: 0 10% 15px 20px;
+	margin: 0;
+	float: left;
+	width: 90%;
+	font-size: .9em;
+	line-height: 1.16em;
+	color: #fff;
+	text-transform: lowercase;
+}
+.actualidad .boxes .actividad p:before {
+	text-transform: uppercase;
+}
+.actualidad .boxes .actividad .read-more {
+	display: none;
+}
+
+
+
+div#wrapperHeaderGen {
+ width:50%;
+ height:180px; /* height of the background image? */
+ background:url(images/header.png) repeat-x 0 0;
+ text-align:center;
+float:right;
+}
+
+div#wrapperHeaderGen div#headerGen {
+/* width:1000px;*/
+ height:180px;
+ margin:0 auto;
+}
+
+div#wrapperHeaderGen div#headerGen img {
+ width: 100%; /* the width of the logo image */
+ height: 110%; /* the height of the logo image */
+ margin:0 auto;
+}
+
+/*******************************/
+/*  roher */
+/*******************************/
+
+
+.footer-block1,.footer-block2,.footer-block3,.footer-block4{
+  float: left;
+  width: 46% !important;
+  padding: 20px 19px 0 0;
+}
+
+
+#footer-wrapper .redes_sociales {
+	position: absolute;
+	top: 50px;
+	left: 300px;
+}
+
+.redes_sociales ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: left;
+}
+
+.redes_sociales ul li { display: inline; }
+
+.redes_sociales ul li a
+{
+text-decoration: none;
+padding: .2em 1em;
+}
+
+#footer-wrapper .redes_sociales .facebook-icon a {
+	background: url(../icons/facebook-icon-footer.jpg) 0px 0px no-repeat !important;
+	width: 24px;
+	height: 24px;
+	float: left;
+}
+#footer-wrapper .redes_sociales .twitter-icon a {
+	background: url(../icons/twitter-icon-footer.jpg) 0px 0px no-repeat !important;
+	width: 24px;
+	height: 24px;
+	float: left;
+}
+#footer-wrapper .redes_sociales .youtube-icon a {
+	background: url(../icons/youtube-icon-footer.jpg) 0px 0px no-repeat !important;
+	width: 24px;
+	height: 24px;
+	float: left;
+}
+#footer-wrapper .redes_sociales .facebook-icon a img,
+#footer-wrapper .redes_sociales .twitter-icon a img,
+#footer-wrapper .redes_sociales .youtube-icon a img{
+	display: none;
+}
+
+
+
+/* =Footer Menu
+-------------------------------------------------------------- */
+.footer-menu {
+	margin-left: 0;
+	padding: 0;
+}
+
+.footer-menu li {
+	display: block;
+	list-style-type: none;
+}
+
+.footer-menu li a {
+	border-left: 0px solid #cccccc;
+	padding: 0 0;
+	color: #ffffff !important;
+	cursor: pointer;
+	display: block;
+	font-size: 11px;
+	height: 20px;
+	letter-spacing: .4em;
+	margin: 0;
+	position: relative;
+	text-decoration: none;
+	white-space: nowrap;
+	font-family: 'Lato', sans-serif !important;
+        font-size: 0.9em !important;
+	font-weight: 300 !important;
+	text-transform: uppercase;
+	-webkit-transition:All 0.3s ease-out;
+	-moz-transition:All 0.3s ease-out;
+	-o-transition:All 0.3s ease-out;
+}
+
+.footer-menu li a:hover {
+	color: #920006 !important;
+	padding: 0 0 0 5px;
+	-webkit-transition:All 0.3s ease-out;
+	-moz-transition:All 0.3s ease-out;
+	-o-transition:All 0.3s ease-out;
+}
+
+.footer-menu > li:first-child > a {
+	border-left: none;
+	padding: 0 0 0 0;
+}
+
+
+/* CONTACTO FORM */
+
+#10form_view1 {
+    font-family: 'Lato', sans-serif !important;
+}
+
+.wdform_page {
+    font-family: 'Lato', sans-serif !important;
+}
+
+

@@ -1,0 +1,132 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-06-26T14:13:10+00:00\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: Russia\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "This plugin enables the display of a number of related posts in each post."
+msgstr "1) Этот плагин позволяет отображать ряд соответствующих должностей в каждом посте.   "
+
+msgid "Customize the apparence"
+msgstr "2) Настроить Apparence"
+
+msgid "HTML:"
+msgstr "3) HTML:"
+
+msgid "Please note that %s stands for a list of related posts. The default value of the HTML is:"
+msgstr "4) Пожалуйста, обратите внимание, что стенды %s для получения списка соответствующих должностей. Значение по умолчанию является HTML:"
+
+msgid "Please note that %s stands for a list of related posts with their featured images or their first images."
+msgstr "5) Пожалуйста, обратите внимание, что стенды %s для получения списка соответствующих должностей с их Избранные изображения или их первые изображения."
+
+msgid "The default value of the HTML is:"
+msgstr "6) значение по умолчанию для HTML является:"
+
+msgid "Width of the thumbnail image if you choose to display the featured image (see above):"
+msgstr "7) Ширина изображения эскиза, если вы выбираете для отображения изображения признакам (см. выше):"
+
+msgid "The CSS might have to be modified (see below)."
+msgstr "7) Ширина изображения эскиза, если вы выбираете для отображения изображения признакам (см. выше):"
+
+msgid "Height of the thumbnail image if you choose to display the featured image (see above):"
+msgstr ""
+
+msgid "Make the featured images clickable:"
+msgstr ""
+
+msgid "CSS:"
+msgstr ""
+
+msgid "The default value of the CSS is:"
+msgstr ""
+
+msgid "The number of related posts to display in each post:"
+msgstr ""
+
+msgid "The list of type of posts where the related posts are displayed:"
+msgstr ""
+
+msgid "It is a coma separated list. The default value is:"
+msgstr ""
+
+msgid "Display in excerpt:"
+msgstr ""
+
+msgid "Advanced options"
+msgstr ""
+
+msgid "Show the score in articles and for the logged users:"
+msgstr ""
+
+msgid "What are the different types of posts you want to look for:"
+msgstr ""
+
+msgid "The number of words used to compare posts:"
+msgstr ""
+
+msgid "The weight of the content:"
+msgstr ""
+
+msgid "The weight of the title:"
+msgstr ""
+
+msgid "The weight of the categories:"
+msgstr ""
+
+msgid "The weight of the keywords:"
+msgstr ""
+
+msgid "For now, your have %s published articles (i.e. %s)."
+msgstr ""
+
+msgid "%s articles have their keywords cached."
+msgstr ""
+
+msgid "%s articles have similar posts cached."
+msgstr ""
+
+msgid "In the following table, you will find some examples of related posts that may be displayed."
+msgstr ""
+
+msgid "Please note that the presented examples are randomly selected. Refresh the page to change the examples."
+msgstr ""
+
+msgid "Title of the post"
+msgstr ""
+
+msgid "Extracted words"
+msgstr ""
+
+msgid "Related posts"
+msgstr ""
+
+msgid "Examples"
+msgstr ""
+
+msgid "Parameters"
+msgstr ""
+
+msgid "Manage translations"
+msgstr ""
+
+msgid "Give feedback"
+msgstr ""
+
+msgid "Other plugins"
+msgstr ""
+
